@@ -17,9 +17,7 @@ public class AccountController {
 
     @RequestMapping(value = "/trans")
     public void trans() {
-
-
-        System.out.print(324324);
+        System.out.print(6666);
         accountService.transfer("aaa", "bbb", 200d);
     }
 }
